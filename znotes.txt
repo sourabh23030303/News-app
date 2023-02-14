@@ -1,0 +1,38 @@
+#api key
+ec5872dc72e0429ab4f5ccac9dd3f3a7
+fb96342e609c4547b62ed08194712404
+96efbca617744192a90e432df1069baf
+
+ctrl +shift+r se browser referesh hota hai 
+
+
+  <Routes>
+        <Route exact path="/" element={<News key="general" country="in" category="general"/>} />
+        <Route exact path="/general" element={<News key="general" country="in" category="general"/>} />
+        <Route exact path="/sports" element={<News key="sports" country="in" category="sports"/>} />
+        <Route exact path="/science" element={<News key="science" country="in" category="science"/>} />
+        <Route exact path="/entertainment" element={<News key="entertainment" country="in" category="entertainment"/>} />
+        <Route exact path="/business" element={<News key="business" country="in" category="business"/>} />
+        <Route exact path="/technology" element={<News key="technology" country="in" category="technology"/>} />
+        <Route exact path="/health" element={<News key="health" country="in" category="health"/>} />
+      </Routes>
+
+
+####reaxt component lifecycle
+mounting -bieth of component 
+update -growth of your component 
+unmount -death of your component
+
+###########################
+REACT_APP_NEWS_API YE USE KRENGE TO OR EQUAL TO MAI KUCH DAL DE TO US CHIJ KA ACCESS MIL JATA HAI REACT APP MAI
+
+  <Routes>
+        <Route exact path="/" element={<News apikey={ apikey} setprogress = { setprogress}key="general" country="in" category="general"/>} />
+        <Route exact path="/general" element={<News apikey={ apikey} setprogress = { setprogress}key="general" country="in" category="general"/>} />
+        <Route exact path="/sports" element={<News apikey={ apikey} setprogress = { setprogress}key="sports" country="in" category="sports"/>} />
+        <Route exact path="/science" element={<News apikey={ apikey} setprogress = { setprogress}key="science" country="in" category="science"/>} />
+        <Route exact path="/entertainment" element={<News apikey={ apikey} setprogress = { setprogress}key="entertainment" country="in" category="entertainment"/>} />
+        <Route exact path="/business" element={<News apikey={ apikey}setprogress = { setprogress}key="business" country="in" category="business"/>} />
+        <Route exact path="/technology" element={<News apikey={ apikey} setprogress = { setprogress}key="technology" country="in" category="technology"/>} />
+        <Route exact path="/health" element={<News apikey={ apikey} setprogress = { setprogress}key="health" country="in" category="health"/>} />
+      </Routes>
